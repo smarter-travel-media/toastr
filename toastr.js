@@ -235,6 +235,7 @@
 				}
 				$container = $('<div/>')
 					.attr('id', options.containerId)
+					.addClass('toast-container');
 					.addClass(options.positionClass);
 				$container.appendTo($(options.target));
 				return $container;
